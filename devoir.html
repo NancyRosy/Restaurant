@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chez NancyFleurdeRose - Restaurant</title>
+  <link rel="stylesheet" href="Devoir.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <h1>Chez NancyFleurdeRose</h1>
+      <p>Une expérience culinaire inoubliable</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservation">Réserver</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil">
+      <h2>Bienvenue !</h2>
+      <p>Venez savourer des plats délicieux dans une ambiance chaleureuse et conviviale.</p>
+      
+    </section>
+
+    <hr>
+
+    <section id="menu">
+      <h2>Notre Menu</h2>
+      <div class="menu-container">
+        <div class="menu-item">
+          <h3>Nos Boissons</h3>
+          <img src="https://picsum.photos/id/1060/400/400" alt="Boissons colorées">
+          <p>Goûtez à nos cocktails et jus multicolores et savoureux.</p>
+          <a href="#contact" class="btn-commander">Commander</a>
+        </div>
+        <div class="menu-item">
+          <h3>Nos Grillades</h3>
+          <img src="https://picsum.photos/id/1076/400/400" alt="Grillades de poulet">
+          <p>Nos grillades tendres et parfaitement fumantes.</p>
+          <a href="#contact" class="btn-commander">Commander</a>
+        </div>
+        <div class="menu-item">
+          <h3>Nos Desserts</h3>
+          <img src="https://picsum.photos/id/225/400/400" alt="Dessert gourmand">
+          <p>Terminez en douceur avec nos délicieux desserts maison.</p>
+          <a href="#contact" class="btn-commander">Commander</a>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="reservation">
+      <h2>Réserver une table</h2>
+      <form class="reservation-form">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="date">Date :</label>
+        <input type="date" id="date" name="date" required>
+        
+        <label for="personnes">Nombre de personnes :</label>
+        <input type="number" id="personnes" name="personnes" min="1" max="12" required>
+        
+        <button type="submit">Réserver</button>
+      </form>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+      <h2>Nous Contacter</h2>
+      <div class="contact-info">
+          <p><strong>Téléphone :</strong> 06 471 28 72 / 06 602 20 89</p>
+          <p><strong>Adresse :</strong> Centre-ville, Pointe-Noire</p>
+          <p><strong>Horaires :</strong> Disponible de 8h30 à 23h00</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chez NancyFleurdeRose. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
